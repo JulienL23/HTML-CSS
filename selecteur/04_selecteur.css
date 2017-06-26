@@ -1,0 +1,28 @@
+      body{
+          font-size: 25px;/*taille de police : 25pixels*/
+     }
+
+      h1{
+          background-color: darkslategrey;
+          color: white;
+      }
+
+      section p{
+          color: red; /*tous les <p> à l'intérieur de la balise <section>*/
+      }
+
+      section p:first-child{
+          color: darkblue; /*premier <p>*/
+      }
+
+      section p:last-child{
+          color: lightgreen; /*dernier <p>*/
+      }
+
+      section p:nth-child(even){
+          color: lightblue; /*les <p> paires*/
+      }
+
+      section p:nth-child(odd){
+          color: brown; /*les <p> impairs*/
+      }
