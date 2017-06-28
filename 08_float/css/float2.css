@@ -1,0 +1,28 @@
+  body{
+      background: linear-gradient(darkred, #E2E50C);
+      width: 100%;/*largeur*/
+      height: 100em;/*hauteur*/
+  }
+  .c1, .c2{
+      height: 60px;/*hauteur*/
+      width: 60px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 20%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+  }
+
+  .clear{
+      clear: both;
+  }
+
+  .c1{
+      background-color: #168AC9;
+  }
+
+  .c2{
+      background-color: #27BC29;
+  }
