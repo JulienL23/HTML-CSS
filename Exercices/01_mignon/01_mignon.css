@@ -1,13 +1,15 @@
 
 table{
     border-collapse: collapse;/*par defaut la bordure contient 2 traits, pour que le trait soit visible on utilise la propriété "collapse"*/
-    width: 80%;/*largeur du tableau par rapport à son contenant, donc ici au body /!\ ne pas oublier la règle de l'héritage en CSS*/
+    width: 70%;/*largeur du tableau par rapport à son contenant, donc ici au body /!\ ne pas oublier la règle de l'héritage en CSS*/
     margin: 40px;
 }
 
 
 td{
-  padding: 16px;
+    height: 40px; /*hauteur*/
+    width: 2px; /*largeur*/
+    margin: 30px;
 
 }
 

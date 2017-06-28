@@ -1,0 +1,25 @@
+    div{
+        margin: 50px 0 0 50px;
+    }
+
+    img{
+        height: 200px; /*hauteur*/
+        width: 200px; /*largeur*/
+        border: 8px solid darkred; /*taille, style, couleur de la bordure*/
+        margin: 30px;
+        float: left;/*efet flottant, permet de placer des balises côte à côte alors que le flux du web standard les éléments se placent les un au dessus des autres.*/
+        transition: margin 0.5s;
+    }
+    img:hover{
+        margin-top: 3px;
+    }
+    .clear{
+        clear: both;/*supprime l'effet flottant*/
+    }
+
+    p{
+        background-color: red;
+    }
+        p span{
+              background-color: yellow;
+        }
