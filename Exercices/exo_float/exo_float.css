@@ -1,0 +1,91 @@
+  body{
+    background: linear-gradient(grey, white);
+    width: 100%;/*largeur*/
+    height: 100em;/*hauteur*/
+    }
+
+    .clear{
+        clear: both;
+    }
+
+
+    .c1{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 6% 20% 20% 40%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+      background-color: #DAF7A6;
+    }
+
+    .c2{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 41% 0% 41% 0%; /* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+      background-color: cyan;
+    }
+
+    .c3{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 50%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+      background-color: #33C2D8;
+    }
+
+    .c4{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 20% 45% 20% 45%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+      background-color: pink;
+    }
+
+    .c5{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      margin: 2px;
+      float: left;
+      border-radius: 20%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+    }
+
+    .c6{
+      height: 150px;/*hauteur*/
+      width: 150px;/*largeur*/
+      border: 2px solid;/*si on ne met pas de 3eme valeur la couleur du trait sera par defaut noire*/
+      margin: 2px;
+      float: left;
+      border-radius: 20% 45% 20% 45%;/* arrondir les angles */
+      text-align: center;/* centrer le texte*/
+      padding-top: 2px;/* étendre du coté choisis top, left, right*/
+      font-size: 15px;/* pour le texte */
+      background-color: darkred;
+
+    }
+
+    div:nth-of-type(17){
+        background-color: black;
+    }
