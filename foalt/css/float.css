@@ -1,0 +1,18 @@
+    div{
+        margin: 50px 0 0 50px;
+    }
+
+    img{
+        height: 200px; /*hauteur*/
+        width: 200px; /*largeur*/
+        border: 8px solid darkred; /*taille, style, couleur de la bordure*/
+        margin: 30px;
+    }
+
+    p{
+        background-color: red;
+    }
+
+    p span{
+        background-color: yellow;
+    }
