@@ -1,0 +1,59 @@
+/*1ére partie*/
+body{
+    background: url(img/pattern.png);
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+div#conteneur{
+    width: 770px;/*largeur de mon ID*/
+    margin: 0 auto;/*marge automatique qui centre la div aprés l'avoir remonté le plus haut possible dans mon affichage*/
+    text-align: left;/*centre le contenu de mon #conteneur*/
+    border: 2px solid #ab4;/*bordure extérieur*/
+    background: #fff;/*couleur de fond du conteneur*/
+}
+h1#header{
+    height: 258px;/*on personnalise la hauteur du titre h1*/
+    background: url(img/apple.jpg) no-repeat left top;
+    margin : 0;
+}
+
+div#contenu{
+    padding: 0 30px 0 100px;
+    background-image: url(img/bg_page.gif);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;/*créé un espace et à gauche et à droite de l'image*/
+    }
+    div#contenu h2{/*prise en forme du titre de page h2*/
+        padding-left: 25px;/*on décale le texte en fonction de l'image*/
+        line-height: 25px;/*on décale le texte en fonction de l'image avec un interligne (hauteur de ligne)*/
+        background: url(img/little_apple.gif) no-repeat left bottom;
+        color: #9b2;/*couleur de texte*/
+        border-bottom: 1px solid #9b2;/*bordure du bas en couleur*/
+    }
+    div#contenu h3{
+        margin-left: 15px;
+        padding-left: 5px;
+        border-bottom: 1px solid #9b2;
+        border-left: 1px solid #9b2;
+        color: #9b2;
+    }
+    div#contenu p{
+        text-align: justify;/*alignement justify*/
+        text-indent: 2em;/*indentation plus grande que l'affichage par defaut pour aérer le texte*/
+        line-height: 1.7em;/*hauteur de ligne plus aérée aussi*/
+    }
+  /*div#contenu a{
+      color: #9b2;/*mise en forme des lignes de la page
+      }
+      div#contenu a:hover{
+      color: #9b2;
+      }*/
+p#footer{
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #9b2;
+}
