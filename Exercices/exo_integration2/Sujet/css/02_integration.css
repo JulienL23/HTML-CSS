@@ -1,0 +1,49 @@
+body{
+  /*margin: 10px 0 0 30px;*/
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+    }
+
+    .titre h1{
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      letter-spacing: 8px;
+      margin: 0 40%;
+    }
+    ul li{
+      list-style-type: none;
+      display:inline;
+      float: left;
+      padding: 0 3px;
+
+    }
+    .titre span{
+        font-style:italic;
+        font-size: 13px;
+        color: darkred;
+    }
+
+#a1, #a5{
+  text-align: right;
+}
+
+footer{
+    text-align: center;
+    }
+    .fin h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 40%;
+    }
+    .fin span{
+        font-style: italic;
+    }
+
+    .clear{
+      clear: both;
+    }

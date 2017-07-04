@@ -17,7 +17,43 @@ h1#header{
     height: 258px;/*on personnalise la hauteur du titre h1*/
     background: url(img/apple.jpg) no-repeat left top;
     margin : 0;
-}
+    }
+    h1#header a{/*on donne les même dimensions aux lien , chose possible grace a la propriété display et la valeur block; qui transforme les lien en éléments de type block auquels on peu appliquer des propriété de taille, on positionne aussi l'image de fond qui a les même dimensions que le cadre ainsi créé*/
+    width: 400px;
+    height: 70px;
+    display: block;
+    background: url(img/title.gif) no-repeat;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px;/*le texte indent négatif est fait pour pouvoir cacher le texte hors de la page, ce que nous voulons pour ne pas l'avoir devant notre image */
+    }
+    ul{
+      height: 35px;/*on donne une hauteur au menu, correspondant a la taille de d'image utilisé en fond*/
+      margin: 0;
+      padding: 0;
+      background: url(img/bg_menu.gif) repeat-x 0 -25px;/*on met ensuite l'image de fond avec un décalage de 25px vers le haut*/
+      list-style-type: none;/*on cache le puces*/
+    }
+    ul li{
+        float: left;/*on rend les li flotante pour les afficher horizontalement*/
+        text-align: center;
+        }
+        ul li a{
+            width: 130px;/*largeur*/
+            line-height: 25px;/*hauteur de ligne*/
+            font-size: 1.2em;/*taille de police*/
+            font-weight: bold;/*mise en gras de la police*/
+            letter-spacing: 2px;/*espacement des lettres*/
+            color: #fff;/*couleur du texte*/
+            display: block;/*en changeant la propriété des a en block on peut les dimmensionner comme on veut*/
+            text-decoration: none;/*on enlève le souligné que les navigateurs appliquent par defaut */
+            border-right: 2px solide #dea;/*bordure*/
+        }
+        ul li a:hover{
+            background: url(img/bg_menu.gif) repeat-x 0 0;/*on décale l'image de fond au passage de la souris*/
+        }
+
 
 div#contenu{
     padding: 0 30px 0 100px;
