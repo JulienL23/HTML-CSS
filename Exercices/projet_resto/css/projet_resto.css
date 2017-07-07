@@ -1,0 +1,89 @@
+/* Les balises */
+body{
+    background-color: #A6D6C3;
+    width: 60%;/* largeur */
+    margin : 0 auto;
+}
+
+header{
+    width: 100%;
+    background: transparent url('../img/planks0089.jpg') no-repeat;
+}
+section{
+    width: 100%;
+    display: inline-block;
+}
+footer{
+    margin:auto;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 20%;
+    font-weight: bold;
+    }
+nav{
+    text-align: right;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;/* REGLE DE l'HERITAGE en CSS : l'enfanthérite des propriétés de son parent */
+    }
+
+
+    /*----- 2.Les ID -----*/
+    #drink{
+        margin-bottom: 10%;
+    }
+    #container{
+        background: transparent url('../img/bg_txt.jpg');
+    }
+
+    /*----- 3.Les Class -----*/
+    .titre{
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+
+    header h2.cs{
+      color: black;
+      font-weight: bold;
+      font-size: 4rem;
+      text-align: left;
+      margin-left: 50px;
+    }
+    .resto{
+        margin : 0;
+        width: 49.94%;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    #ourstory .resto:first-child, #freshfare .resto:last-child, #drink .resto:first-child{
+        padding: 3%;
+        width: 43.3%;
+    }
+    .resto img{
+        width: 580px;
+        height: 509px;
+    }
+    .logo img{
+        display: block;
+        margin-left: 400px;
+        padding-bottom: 150px;
+    }
+    /* agencement du texte */
+    .resto p{
+        font-style: italic;
+        font-size: 2.5em;
+        }
+        .plate p:last-of-type{
+            margin-bottom: 5%;
+        }
+        /* FONTAWESOME */
+
+        /* fin FONTAWESOME */
