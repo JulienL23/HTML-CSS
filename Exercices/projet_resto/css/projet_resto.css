@@ -16,6 +16,7 @@ section{
 footer{
     margin:auto;
     width: 50%;
+    height: 250px;
     text-align: left;
     margin-bottom: 20%;
     font-weight: bold;
@@ -34,10 +35,14 @@ nav{
 
     /*----- 2.Les ID -----*/
     #drink{
-        margin-bottom: 10%;
+        margin-bottom: -26px;
     }
     #container{
         background: transparent url('../img/bg_txt.jpg');
+    }
+    #image{
+        text-align: center;
+        display: block;
     }
 
     /*----- 3.Les Class -----*/
@@ -68,7 +73,7 @@ nav{
         width: 43.3%;
     }
     .resto img{
-        width: 580px;
+        width: 575px;
         height: 509px;
     }
     .logo img{
