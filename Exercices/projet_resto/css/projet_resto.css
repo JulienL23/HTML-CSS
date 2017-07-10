@@ -15,23 +15,26 @@ section{
 }
 footer{
     margin:auto;
+    margin-top: 20px;
     width: 50%;
-    height: 250px;
+    height: 75px;
     text-align: left;
     margin-bottom: 20%;
     font-weight: bold;
+    display: inline-block;
     }
 nav{
     text-align: right;
     }
     nav ul li{
         display: inline-block;
+        font-size: 35px;
+        margin-top: 10px;
     }
     a{
         text-decoration: none;
         color: inherit;/* REGLE DE l'HERITAGE en CSS : l'enfanthérite des propriétés de son parent */
     }
-
 
     /*----- 2.Les ID -----*/
     #drink{
@@ -84,7 +87,7 @@ nav{
     /* agencement du texte */
     .resto p{
         font-style: italic;
-        font-size: 2.5em;
+        font-size: 20px;
         }
         .plate p:last-of-type{
             margin-bottom: 5%;
