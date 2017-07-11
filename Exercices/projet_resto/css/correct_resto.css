@@ -112,4 +112,90 @@ section .rectRose{
 section img{
     width: 100%;
 }
-/*- - - - - fin - - - - - */
+section > section{/*je cible le 1er enfant <section> du parent*/
+    overflow: hidden;/*tout dépassement du cadre de mon contenant sera caché*/
+    height: 820px;
+    text-align: center;
+}
+section p, section h2{
+    padding: 0 15%;
+}
+.pBloc-left, .pBloc-right{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.pBloc-left{
+    width: 40%;
+    overflow: visible;
+    position: relative;
+}
+.pBloc-right{
+    width: 60%;
+}
+#story img{
+    transform: scaleX(-1);/*mise à l'échelle sur l'axe horizontal*/
+    width: 125%;
+}
+#story div{
+    transform: scaleX(-1);
+    height: 100%;
+    background-image: url(../img/asperge.jpg);
+    background-size: cover;
+
+}
+#soap .pBloc-left{
+    width: 30%;
+}
+#soap .pBloc-right{
+    width: 70%;
+}
+#soap{
+    height: 900px;
+}
+#drink{
+    height: 755px;
+}
+.txtRose{
+    color: #e56f6f;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.pBloc-left > img{
+    width: 50%;
+}
+#drink .pBloc-left img{
+    position: relative;
+    top: 70px;
+    z-index: -1;/*position sur l'axe - gère l'empilement de 2 ou plusieurs éléments*/
+}
+#eggs{
+    width: 100%;
+
+}
+/*- - - - - FIN SECTION- - - - - */
+/*- - - - FOOTER - - - - */
+footer{
+    padding: 150px 0;
+    background-image: url(../img/pattern.jpg);
+}
+footer > div {
+    display : inline-block;
+}
+footer p{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#contact ul{
+    float: right;
+    margin-right: 50px;
+    padding-left: 65vw;
+}
+#contact li{
+    display: inline-block;
+    text-align: right;
+    margin: 0 5px;
+    color: #e53f6f;
+}

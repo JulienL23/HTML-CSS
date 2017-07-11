@@ -1,0 +1,55 @@
+#conteneur{
+    width: 960px;
+    background: #AEEDED;
+    color: white;
+    margin: 0 auto;
+}
+header {
+    background:#D2B48B;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+nav {
+    background: #2e4f4f;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+section{
+    height: 500px;
+    background: grey;
+    margin: 10px;
+}
+footer {
+    background: silver;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.couleur {
+    border: 1px solid white;
+    float: left;
+    height: 248px;
+    width: 468px;
+}
+.rect {
+    border: 1px solid white;
+    float: left;
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+    width: 232px;
+}
+.uno{
+    background: #ffdab8;
+}
+.dos{
+    background: #799eb0;
+}
+.tres{
+    background: #415764;
+}
+.quatro{
+    background: #ffe0b3;
+}
