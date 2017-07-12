@@ -1,17 +1,21 @@
+/*- - - - -  Zoning en FLOAT - - - - - */
+/*----------------------------------*/
+/*----------------------------------*/
+
 #conteneur{
     width: 960px;
-    background: #AEEDED;
+    background: #557983;
     color: white;
     margin: 0 auto;
 }
 header {
-    background:#D2B48B;
+    background:linear-gradient( 45deg, grey, black );
     height: 60px;
     line-height: 60px;
     text-align: center;
 }
 nav {
-    background: #2e4f4f;
+    background: linear-gradient(#2e4f4f, grey);
     height: 30px;
     line-height: 30px;
     text-align: center;
@@ -20,9 +24,10 @@ section{
     height: 500px;
     background: grey;
     margin: 10px;
+    color: red;
 }
 footer {
-    background: silver;
+    background: linear-gradient( 45deg, black, grey );
     height: 70px;
     line-height: 70px;
     text-align: center;
@@ -52,4 +57,84 @@ footer {
 }
 .quatro{
     background: #ffe0b3;
+}
+
+/*--------------------*/
+/* -- HR --*/
+/*--------------------*/
+
+hr{
+    border: 3px solid darkred;
+    width: 1300px;
+}
+.img1{
+    height: 245px;
+    width: 230px;
+}
+.img2{
+    height: 245px;
+    width: 465px;
+}
+
+
+/*----------------------------------*/
+/* - - - - - Zoning DISPLAY ( inline - block)- - - - -*/
+/* changer les float en display : inline-block puis redimensionner les mesures */
+/*----------------------------------*/
+
+#conteneur2{
+    width: 960px;
+    background: #104654;
+    color: white;
+    margin: 0 auto;
+}
+header.n2 {
+    background:#137F9C;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+nav.n2 {
+    background: #A6D6C3;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+section.n2{
+    height: 500px;
+    background: grey;
+    margin: 10px;
+    color: white;
+}
+footer.n2 {
+    background: darkgrey;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.couleur2 {
+    border: 1px solid white;
+    display: inline-block;
+    height: 248px;
+    width: 466px;
+}
+.rect2 {
+    border: 1px solid white;
+    display: inline-block;
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+    width: 229px;
+}
+.uno2{
+    background: #DF9813;
+}
+.dos2{
+    background: #799eb0;
+}
+.tres2{
+    background: #415764;
+}
+.quatro2{
+    background: #D3305F;
 }
