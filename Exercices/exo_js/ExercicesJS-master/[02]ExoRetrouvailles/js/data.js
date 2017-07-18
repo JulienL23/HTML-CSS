@@ -7,6 +7,6 @@ var data = {
   'perso_1' : {
     'name' : 'Archibalde',
     'picture' : 'img/archi.jpg',
-    'texte' : ['Grand père, c\'est moi!','J\'aime les pâttes moi aussi','Pff nimporte quoi!']
+    'texte' : ['Ta gueule ! ','J\'ai dis ta gueule !','T\'es juste con...']
   }
 }
